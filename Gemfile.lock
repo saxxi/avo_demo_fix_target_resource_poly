@@ -71,6 +71,9 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
+    annotate (3.2.0)
+      activerecord (>= 3.2, < 8.0)
+      rake (>= 10.4, < 14.0)
     avo (2.38.0)
       actionview (>= 6.0)
       active_link_to
@@ -245,6 +248,7 @@ PLATFORMS
   arm64-darwin-22
 
 DEPENDENCIES
+  annotate (~> 3.2)
   avo
   bootsnap
   capybara
